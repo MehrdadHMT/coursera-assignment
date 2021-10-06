@@ -75,32 +75,35 @@ body{
 /** End of Header **/
 
 /** Main **/
-main h2{
+#our-menu h2{
 	margin-top: 10px;
+	margin-bottom: 15px;
 	text-align: center;
-	font-family: serif;, helvetica;
-	font-size: 1.5em;
+	font-family: serif, helvetica;
+	font-size: 1.8em;
 	font-weight: bold;
+}
+
+.container{
+	width: 96%;
 }
 
 section{
 	height: 1000px;
 }
 
-section div.container{
-	background-color: #c2baba;
+#chicken, #beef, #sushi{
+	background-color: #e4ebf2;
 	color: #000;
-	margin-left: 2%;
-	margin-right: 2%;
-}
-
-.menu-title{
-	text-align: center;
-}
-
-.menu-title h3{
-	margin-top: 10px;
 	margin-bottom: 15px;
+	border: 1px solid #000;
+}
+h3{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
 }
