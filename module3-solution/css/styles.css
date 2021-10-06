@@ -72,9 +72,9 @@ body{
 
 /** Main **/
 #our-menu h2{
-	margin-top: 10px;
+	/*margin-top: 10px;
 	margin-bottom: 15px;
-	text-align: center;
+	text-align: center;*/
 	font-family: serif, helvetica;
 	font-size: 1.8em;
 	font-weight: bold;
